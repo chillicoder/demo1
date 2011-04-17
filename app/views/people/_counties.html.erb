@@ -1,0 +1,4 @@
+<p>
+  <%= f.label :county_id %><br/>
+  <%= f.collection_select :county, counties, :id, :name, { :include_blank => true } %>
+</p>

@@ -1,0 +1,13 @@
+<p>
+  <b>State:</b>
+  <%=h @county.state.name %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @county.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_county_path(@county) %> |
+<%= link_to 'Back', counties_path %>
